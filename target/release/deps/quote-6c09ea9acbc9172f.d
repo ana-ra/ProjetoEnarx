@@ -1,0 +1,13 @@
+/home/silvana/enarx/target/release/deps/quote-6c09ea9acbc9172f.rmeta: /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs
+
+/home/silvana/enarx/target/release/deps/libquote-6c09ea9acbc9172f.rlib: /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs
+
+/home/silvana/enarx/target/release/deps/quote-6c09ea9acbc9172f.d: /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs /home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs
+
+/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/lib.rs:
+/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ext.rs:
+/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/format.rs:
+/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/ident_fragment.rs:
+/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/to_tokens.rs:
+/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/runtime.rs:
+/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.17/src/spanned.rs:

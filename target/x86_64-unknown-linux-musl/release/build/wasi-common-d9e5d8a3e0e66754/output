@@ -1,0 +1,3 @@
+cargo:wasi=/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-common-0.35.2/WASI
+cargo:rustc-env=WASI_ROOT=/home/silvana/.cargo/registry/src/github.com-1ecc6299db9ec823/wasi-common-0.35.2/WASI
+cargo:rerun-if-changed=build.rs

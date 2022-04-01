@@ -1,0 +1,4 @@
+cargo:rerun-if-changed=layout.ld
+cargo:rustc-link-arg-bin=shim-sgx=-Tlayout.ld
+cargo:rustc-link-arg-bin=shim-sgx=-Wl,--sort-section=alignment
+cargo:rustc-link-arg-bin=shim-sgx=-nostartfiles

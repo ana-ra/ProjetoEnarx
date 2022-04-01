@@ -1,0 +1,28 @@
+cargo:rerun-if-changed=src/helpers.c
+TARGET = Some("x86_64-unknown-linux-musl")
+OPT_LEVEL = Some("s")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+TARGET_CC = None
+CC = None
+CROSS_COMPILE = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+TARGET_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "musl-gcc" "-Os" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-DCFG_TARGET_OS_linux" "-o" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/wasmtime-runtime-d6f4df056c454190/out/src/helpers.o" "-c" "src/helpers.c"
+exit status: 0
+AR_x86_64-unknown-linux-musl = None
+AR_x86_64_unknown_linux_musl = None
+TARGET_AR = None
+AR = None
+running: "ar" "cq" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/wasmtime-runtime-d6f4df056c454190/out/libwasmtime-helpers.a" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/wasmtime-runtime-d6f4df056c454190/out/src/helpers.o"
+exit status: 0
+running: "ar" "s" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/wasmtime-runtime-d6f4df056c454190/out/libwasmtime-helpers.a"
+exit status: 0
+cargo:rustc-link-lib=static=wasmtime-helpers
+cargo:rustc-link-search=native=/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/wasmtime-runtime-d6f4df056c454190/out

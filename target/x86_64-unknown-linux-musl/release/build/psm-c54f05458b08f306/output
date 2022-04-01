@@ -1,0 +1,29 @@
+OPT_LEVEL = Some("s")
+TARGET = Some("x86_64-unknown-linux-musl")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-musl = None
+CC_x86_64_unknown_linux_musl = None
+TARGET_CC = None
+CC = None
+CROSS_COMPILE = None
+CFLAGS_x86_64-unknown-linux-musl = None
+CFLAGS_x86_64_unknown_linux_musl = None
+TARGET_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rustc-cfg=asm
+cargo:rustc-cfg=switchable_stack
+running: "musl-gcc" "-Os" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-xassembler-with-cpp" "-DCFG_TARGET_OS_linux" "-DCFG_TARGET_ARCH_x86_64" "-DCFG_TARGET_ENV_musl" "-o" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/psm-c54f05458b08f306/out/src/arch/x86_64.o" "-c" "src/arch/x86_64.s"
+exit status: 0
+AR_x86_64-unknown-linux-musl = None
+AR_x86_64_unknown_linux_musl = None
+TARGET_AR = None
+AR = None
+running: "ar" "cq" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/psm-c54f05458b08f306/out/libpsm_s.a" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/psm-c54f05458b08f306/out/src/arch/x86_64.o"
+exit status: 0
+running: "ar" "s" "/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/psm-c54f05458b08f306/out/libpsm_s.a"
+exit status: 0
+cargo:rustc-link-lib=static=psm_s
+cargo:rustc-link-search=native=/home/silvana/enarx/target/x86_64-unknown-linux-musl/release/build/psm-c54f05458b08f306/out
